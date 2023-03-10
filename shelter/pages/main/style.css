@@ -1,0 +1,14 @@
+header{
+  width: 1280px;
+  border: 2px, solid, red;
+}
+.wrap{
+  width: 1200px;
+  border: 2px, solid, red;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
