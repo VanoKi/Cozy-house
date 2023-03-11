@@ -12,7 +12,7 @@ header{
 .wrap{
   margin: 0 auto;
   width: 1200px;
-  padding-left: 3px;
+  padding-left: 2px;
 }
 
 ul{
@@ -72,6 +72,7 @@ a{
 /*not only*/
 .section_not_only{
   /*height: 728px;*/
+  /*margin-bottom: 80px;*/
 }
 .inside_wrap_not_only{
   display: flex;
@@ -137,4 +138,56 @@ a{
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
+}
+
+/*about*/
+
+main{
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.about_bg{
+  height: 508px;
+  background: #FFFFFF;
+  padding-top: 80px;
+}
+.wrap_about{
+  width: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pets{
+  width: 300px;
+  height: 408px;
+  background: url(../../assets/images/about-pets.png);
+}
+.about_content{
+  width: 430px;
+}
+.about_content_title{
+  width: 370px;
+  margin-top: 13px;
+  margin-bottom: 27px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.abouy_content_text{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #4C4C4C;
+  margin-bottom: 25px;
 }
