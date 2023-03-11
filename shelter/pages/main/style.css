@@ -191,3 +191,51 @@ main{
   color: #4C4C4C;
   margin-bottom: 25px;
 }
+
+/*pets*/
+
+.section_pets{
+  height: 877px;
+  background: #F6F6F6;
+  padding-top: 80px;
+}
+
+.inside_section_pets{
+  margin: 0 auto;
+  width: 1200px;
+  height: 697px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_pets_title{
+  /* width: 400px; */
+  /* display: flex; */
+  flex-direction: column;
+  /* align-items: center; */
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  white-space: nowrap;
+  margin-bottom: 55px;
+}
+
+.section_pets_titles_styles{
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.slider{
+  width: 1200px;
+  height: 435px;
+  border: 2px solid red;
+}
