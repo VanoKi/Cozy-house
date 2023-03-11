@@ -12,6 +12,7 @@ header{
 .wrap{
   margin: 0 auto;
   width: 1200px;
+  padding-left: 3px;
 }
 
 ul{
@@ -29,6 +30,7 @@ a{
   height: 60px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 .main_title{
   margin: 0 auto;
@@ -62,4 +64,76 @@ a{
 }
 .nav_text:hover{
   color: #FAFAFA;
+}
+.nav_text:active{
+
+}
+
+/*not only*/
+.section_not_only{
+  /*height: 728px;*/
+}
+.inside_wrap_not_only{
+  display: flex;
+  /*flex-direction: row;*/
+  /*flex-wrap: nowrap;*/
+}
+
+/*.content_not_only{
+  padding: 163px, 42px, 243px, 0;
+}*/
+
+.main_text_not_only{
+  /* display: flex; */
+  flex-direction: column;
+  width: 460px;
+  height: 322px;
+  margin-right: 39px;
+}
+
+.not_only_title{
+  margin-top: 165px;
+  /* margin-left: 2px; */
+  margin-bottom: 40px;
+  width: 310px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.not_only_main{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #CDCDCD;
+  margin-bottom: 43px;
+  /* margin-right: 30px; */
+}
+
+.puppy{
+  background: url(../../assets/images/start-screen-puppy.png) no-repeat;
+  width: 698px;
+  height: 728px;
+}
+
+.make_a_friend{
+  width: 207px;
+  height: 52px;
+  background: var(--color-primary);
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
 }
