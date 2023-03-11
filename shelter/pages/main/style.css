@@ -195,7 +195,7 @@ main{
 /*pets*/
 
 .section_pets{
-  height: 877px;
+  height: 797px;
   background: #F6F6F6;
   padding-top: 80px;
 }
@@ -226,7 +226,7 @@ main{
   letter-spacing: 0.06em;
   color: #545454;
   white-space: nowrap;
-  margin-bottom: 55px;
+  margin-bottom: 59px;
 }
 
 .section_pets_titles_styles{
@@ -237,7 +237,8 @@ main{
 .slider{
   width: 1200px;
   height: 435px;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
+  margin-bottom: 60px;
 }
 /*card*/
 .card{
@@ -248,6 +249,10 @@ main{
   align-items: center;
   background: #FAFAFA;
   border-radius: 9px;
+}
+
+.image{
+  margin-bottom: 6px;
 }
 
 .card_title{
@@ -261,6 +266,7 @@ main{
   text-align: center;
   letter-spacing: 0.06em;
   color: #545454;
+  margin-bottom: 30px;
 }
 
 .card_button{
@@ -268,4 +274,35 @@ main{
   height: 52px;
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  background: #FAFAFA;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+
+.cards{
+  margin: 0 auto;
+  width: 990px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button_pets{
+  width: 261px;
+  height: 52px;
+  background: #F1CDB3;
+  border-radius: 100px;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
 }
