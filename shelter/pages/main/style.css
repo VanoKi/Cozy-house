@@ -1,6 +1,7 @@
 html{
   --color-primary: #F1CDB3;
   background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  /*delete gradient from bg?*/
 }
 
 /*header*/
@@ -8,6 +9,7 @@ html{
 header{
   width: 1280px;
   margin: 0 auto;
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
 }
 .wrap{
   margin: 0 auto;
@@ -307,3 +309,12 @@ main{
   /* color: #292929; */
 }
 
+/*section how*/
+
+.help{
+  background: #FFFF;
+}
+
+.wrap_help{
+  height: 611px;
+}
