@@ -317,4 +317,52 @@ main{
 
 .wrap_help{
   height: 611px;
+  display: grid;
+  justify-items: center;
+}
+
+.help_title{
+  width: 308px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.rows{
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  /*column-gap: 120px;*/
+  /*grid-gap: 120px;*/
+}
+
+.help_item_title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.help_item{
+  justify-content: center;
+  align-content: center;
+}
+
+.help_item_size_top{
+  grid-column: span 4;
+}
+
+.help_item_size_bottom{
+  grid-column: span 5;
 }
