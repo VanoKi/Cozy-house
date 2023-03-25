@@ -445,3 +445,15 @@ main{
   letter-spacing: 0.06em;
   color: #545454;
 }
+
+.addition_main_conten_main_text{
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #B2B2B2;
+}
+
