@@ -421,6 +421,19 @@ main{
   color: #545454;
 }
 
+.card{
+  width: 349px;
+  height: 43px;
+  background: #F1CDB3;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card_ico{
+  margin: 0 15px;
+}
+
 .card_number{
   font-family: 'Georgia';
   font-style: normal;
