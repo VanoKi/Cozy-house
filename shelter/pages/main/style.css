@@ -8,7 +8,7 @@ html{
 
 /*header*/
 
-header{
+.header{
   width: 1280px;
   margin: 0 auto;
   background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
@@ -476,3 +476,45 @@ main{
   color: #B2B2B2;
 }
 
+/*footer*/
+
+.footer{
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+}
+
+.footer_container{
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 160px;
+}
+
+.footer_title{
+  margin-top: 14px;
+  margin-bottom: 43px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.footer_text{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+
+.email{
+  display: flex;
+}
+
+.email_image{
+  margin-right: 10px;
+}
