@@ -335,6 +335,7 @@ main{
   color: #545454;
 }
 .rows{
+  width: 1026px;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   /*column-gap: 120px;*/
