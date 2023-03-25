@@ -1,5 +1,7 @@
 html{
   --color-primary: #F1CDB3;
+  --grey-bg: #F6F6F6;
+  --white-bg: #FFFFFF;
   background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
   /*delete gradient from bg?*/
 }
@@ -26,6 +28,7 @@ li{
 }
 a{
   text-decoration: none;
+  color: inherit;
 }
 .main_menu{
   margin-top: 60px;
@@ -171,7 +174,7 @@ main{
 .about_content_title{
   width: 370px;
   margin-top: 13px;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -333,13 +336,21 @@ main{
   text-align: center;
   letter-spacing: 0.06em;
   color: #545454;
+  margin-bottom: -3px;
+  margin-top: 21px;
 }
 .rows{
-  width: 1026px;
+  width: 1182px;
+  /* height: 284px; */
+  /*display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;*/
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   /*column-gap: 120px;*/
   /*grid-gap: 120px;*/
+  /*grid-template-rows: 50px;*/
 }
 
 .help_item_title{
@@ -356,8 +367,14 @@ main{
 }
 
 .help_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0, 60px;
+
+  /*display: grid;
   justify-content: center;
-  align-content: center;
+  align-content: center;*/
 }
 
 .help_item_size_top{
@@ -366,4 +383,52 @@ main{
 
 .help_item_size_bottom{
   grid-column: span 5;
+}
+
+/*addition*/
+
+.addition{
+  background-color: var(--grey-bg);
+}
+
+.addition_container{
+  width: 71.6%;
+  margin: auto;
+  display: flex;
+}
+
+.addition_main_content_title{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.bank{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.card_number{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
 }
