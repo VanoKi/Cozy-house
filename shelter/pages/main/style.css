@@ -324,33 +324,42 @@ main{
   justify-items: center;
 }
 
+.help_main_title{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 310px;
+}
+
 .help_title{
-  width: 308px;
+  margin: 0;
+  /* width: 308px; */
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
-  display: flex;
+  /*display: flex;
   align-items: center;
-  text-align: center;
+  text-align: center;*/
   letter-spacing: 0.06em;
   color: #545454;
-  margin-bottom: -3px;
-  margin-top: 21px;
+  /*margin-bottom: -3px;
+  margin-top: 21px;*/
 }
 .rows{
   width: 1182px;
-  /* height: 284px; */
+  height: 284px;
   /*display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;*/
   display: grid;
   grid-template-columns: repeat(20, 1fr);
-  /*column-gap: 120px;*/
-  /*grid-gap: 120px;*/
-  /*grid-template-rows: 50px;*/
+  /* column-gap: 120px; */
+  /* grid-gap: 120px; */
+  /* grid-template-rows: 50px; */
 }
 
 .help_item_title{
