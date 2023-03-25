@@ -486,7 +486,7 @@ main{
   padding-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 160px;
+  gap: 130px;
 }
 
 .footer_title{
@@ -502,6 +502,8 @@ main{
 }
 
 .footer_text{
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -517,4 +519,21 @@ main{
 
 .email_image{
   margin-right: 10px;
+}
+
+.boston{
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.phone{
+  margin-top: 48px;
+}
+
+.footer_pet{
+  padding-left: 24px;
+}
+
+.london{
+  margin-top: 27px;
 }
