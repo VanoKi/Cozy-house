@@ -437,7 +437,7 @@ main{
   color: #545454;
 }
 
-.card{
+.bank_card{
   width: 349px;
   height: 43px;
   background: #F1CDB3;
@@ -447,7 +447,9 @@ main{
 }
 
 .card_ico{
-  margin: 0 15px;
+  width: 30px;
+  height: 23px;
+  margin: auto 15px;
 }
 
 .card_number{
