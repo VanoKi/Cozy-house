@@ -97,7 +97,7 @@ main{
   /* width: 400px; */
   margin: 0 auto;
   padding-top: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 59px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +126,9 @@ main{
 .pets_cards{
   display: grid;
   grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 30px;
   grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
 }
 
 /*card*/
