@@ -123,7 +123,11 @@ main{
   /* text-align: center; */
 }
 
-
+.pets_cards{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
 
 /*card*/
 
