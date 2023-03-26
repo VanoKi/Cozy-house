@@ -4,6 +4,7 @@ html{
   --white-bg: #FFFFFF;
   background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
   /*delete gradient from bg?*/
+  scroll-behavior: smooth;
 }
 
 button{

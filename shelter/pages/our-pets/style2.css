@@ -3,8 +3,9 @@ html{
   --grey-bg: #F6F6F6;
   --white-bg: #FFFFFF;
   --grad-bg: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
-  background: var(--grad-bg)
+  background: var(--grad-bg);
   /*delete gradient from bg?*/
+  scroll-behavior: smooth;
 }
 
 button{
@@ -79,7 +80,7 @@ a{
   color: #292929;
 }
 .nav_text:active{
-  
+
 }
 
 main{
