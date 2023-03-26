@@ -150,6 +150,10 @@ main{
   cursor: pointer;
 }
 
+.card:hover .card_button{
+  background: #FDDCC4;
+}
+
 .image{
   margin-bottom: 6px;
 }
