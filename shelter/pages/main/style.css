@@ -450,6 +450,10 @@ main{
   flex-direction: row;
 }
 
+.bank_card:hover{
+  background: #FDDCC4;
+}
+
 .card_ico{
   width: 30px;
   height: 23px;
