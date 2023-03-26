@@ -129,6 +129,7 @@ main{
   grid-row-gap: 30px;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 40px;
+  padding-bottom: 61px;
 }
 
 /*card*/
@@ -197,6 +198,21 @@ main{
   /* line-height: 130%; */
   letter-spacing: 0.06em;
   /* color: #292929; */
+}
+
+/*arrows*/
+
+.arrows{
+  margin: 0 auto;
+  width: 340px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrows_ico{
+  width: 52px;
+  height: 52px;
 }
 
 /*footer*/
