@@ -255,6 +255,7 @@ main{
   align-items: center;
   background: #FAFAFA;
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .image{
@@ -288,6 +289,10 @@ main{
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
+}
+
+.card_button:hover{
+  background: #FDDCC4;
 }
 
 .cards{
