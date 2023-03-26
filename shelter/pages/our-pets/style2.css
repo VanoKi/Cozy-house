@@ -76,7 +76,7 @@ a{
   color: #292929;
 }
 .nav_text:hover{
-  color: #FAFAFA;
+  color: #292929;
 }
 .nav_text:active{
 
@@ -146,6 +146,7 @@ main{
   align-items: center;
   background: #FAFAFA;
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .image{
@@ -206,6 +207,15 @@ main{
 .arrows_ico{
   width: 52px;
   height: 52px;
+  border-radius: 23px;
+}
+
+.active{
+  cursor: pointer;
+}
+
+.active:hover{
+  background-color: #FDDCC4;
 }
 
 /*footer*/
