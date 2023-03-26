@@ -6,6 +6,10 @@ html{
   /*delete gradient from bg?*/
 }
 
+button{
+  cursor: pointer;
+}
+
 /*header*/
 
 .header{

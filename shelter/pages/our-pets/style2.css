@@ -7,6 +7,10 @@ html{
   /*delete gradient from bg?*/
 }
 
+button{
+  cursor: pointer;
+}
+
 /*header*/
 
 .header{
@@ -177,27 +181,16 @@ main{
   color: #292929;
 }
 
+.card_button:hover{
+  background: #FDDCC4;
+}
+
 .cards{
   margin: 0 auto;
   width: 990px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.button_pets{
-  width: 261px;
-  height: 52px;
-  background: #F1CDB3;
-  border: #F1CDB3;
-  border-radius: 100px;
-  font-family: 'Georgia';
-  /* font-style: normal; */
-  /* font-weight: 400; */
-  font-size: 17px;
-  /* line-height: 130%; */
-  letter-spacing: 0.06em;
-  /* color: #292929; */
 }
 
 /*arrows*/
