@@ -284,6 +284,10 @@ main{
   cursor: pointer;
 }
 
+.card:hover{
+  background: #FFFFFF;
+}
+
 .card:hover .card_button{
   background: #FDDCC4;
 }
@@ -528,7 +532,7 @@ main{
 
 .footer_title{
   margin-top: 14px;
-  margin-bottom: 43px;
+  margin-bottom: 35px;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -539,7 +543,7 @@ main{
 }
 
 .footer_text{
-  margin-top: 0;
+  margin-top: 6px;
   margin-bottom: 0;
   font-family: 'Georgia';
   font-style: normal;
@@ -555,12 +559,12 @@ main{
 }
 
 .email_image{
-  margin-right: 10px;
+  margin-right: 17px;
 }
 
 .boston{
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
 }
 
 .phone{
