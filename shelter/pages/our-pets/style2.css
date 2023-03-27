@@ -15,6 +15,9 @@ button{
 /*header*/
 
 .header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   width: 1280px;
   margin: 0 auto;
   background: var(--white-bg)
