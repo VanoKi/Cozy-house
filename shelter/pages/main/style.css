@@ -72,11 +72,16 @@ a{
   line-height: 160%;
   color: #CDCDCD;
 }
+
+.active_link{
+  border-bottom: 3px #F1CDB3;
+}
+
 .nav_text:hover{
   color: #FAFAFA;
 }
 .nav_text:active{
-
+  border-bottom: 3px #F1CDB3;
 }
 
 /*not only*/
@@ -247,8 +252,11 @@ main{
 .slider{
   width: 1200px;
   height: 435px;
-  /*border: 2px solid red;*/
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 /*card*/
 
