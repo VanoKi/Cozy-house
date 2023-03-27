@@ -74,14 +74,21 @@ a{
 }
 
 .active_link{
-  border-bottom: 3px #F1CDB3;
+  display: inline-block;
+  border-bottom: 3px solid #F1CDB3;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #FAFAFA;
 }
 
 .nav_text:hover{
   color: #FAFAFA;
 }
 .nav_text:active{
-  border-bottom: 3px #F1CDB3;
+  border-bottom: 3px, solid, #F1CDB3;
 }
 
 /*not only*/
