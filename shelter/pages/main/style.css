@@ -349,18 +349,21 @@ main{
 }
 
 .button_pets{
+  display: block;
+  padding-top: 17px;
   width: 261px;
   height: 52px;
   background: #F1CDB3;
   border: #F1CDB3;
   border-radius: 100px;
+  text-align: center;
   font-family: 'Georgia';
-  /* font-style: normal; */
-  /* font-weight: 400; */
+  font-style: normal;
+  font-weight: 400;
   font-size: 17px;
-  /* line-height: 130%; */
+  line-height: 130%;
   letter-spacing: 0.06em;
-  /* color: #292929; */
+  color: #292929;
 }
 
 .button_pets:hover{
