@@ -83,6 +83,17 @@ a{
 
 }
 
+.active_link{
+  display: inline-block;
+  border-bottom: 3px solid #F1CDB3;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #545454;
+}
+
 main{
   margin: 0 auto;
   width: 1280px;
