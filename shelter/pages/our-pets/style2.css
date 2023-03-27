@@ -239,7 +239,7 @@ main{
   cursor: pointer;
 }
 
-.active:hover{
+.active:active{
   background-color: #FDDCC4;
 }
 
