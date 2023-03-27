@@ -258,6 +258,19 @@ main{
   flex-wrap: nowrap;
   align-items: center;
 }
+
+.arrow_pets{
+  padding: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 25px;
+}
+
+.arrow_pets:hover{
+  background: #FDDCC4;
+}
+
 /*card*/
 
 .card{
