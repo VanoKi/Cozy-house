@@ -2,9 +2,13 @@ html{
   --color-primary: #F1CDB3;
   --grey-bg: #F6F6F6;
   --white-bg: #FFFFFF;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  /* background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat; */  
   /*delete gradient from bg?*/
   scroll-behavior: smooth;
+}
+
+.validator{
+  display: none;
 }
 
 button{
@@ -15,9 +19,9 @@ button{
 /*header*/
 
 .header{
-  width: 1280px;
+  /* width: 1280px; */
   margin: 0 auto;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;
 }
 .wrap{
   margin: 0 auto;
@@ -38,7 +42,7 @@ a{
   transition: .3s;
 }
 .main_menu{
-  margin-top: 60px;
+  padding-top: 60px;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -168,7 +172,7 @@ a{
 
 main{
   margin: 0 auto;
-  width: 1280px;
+  /* width: 1280px; */
 }
 
 .about_bg{
@@ -439,7 +443,7 @@ main{
 }
 
 .addition_container{
-  width: 71.6%;
+  width: 915px;
   margin: auto;
   display: flex;
   padding-top: 78px;
@@ -530,9 +534,9 @@ main{
 /*footer*/
 
 .footer{
-  width: 1280px;
+  /* width: 1280px; */
   margin: 0 auto;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;
 }
 
 .footer_container{
