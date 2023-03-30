@@ -100,7 +100,16 @@ a{
   color: #FAFAFA;
 }
 .nav_text:active{
-  border-bottom: 3px, solid, #F1CDB3;
+  cursor: default;
+  display: inline-block;
+  border-bottom: 3px solid #F1CDB3;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #FAFAFA;
+  transition: .5s;
 }
 
 /*not only*/

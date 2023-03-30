@@ -85,7 +85,15 @@ a{
   color: #292929;
 }
 .nav_text:active{
-
+  cursor: default;
+  display: inline-block;
+  border-bottom: 3px solid #F1CDB3;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #545454;
 }
 
 .active_link{
