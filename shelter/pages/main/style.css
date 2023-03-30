@@ -151,6 +151,7 @@ a{
 }
 
 .make_a_friend{
+  display: block;
   width: 207px;
   height: 52px;
   background: var(--color-primary);
@@ -162,10 +163,15 @@ a{
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
+  text-align: center;
 }
 
 .make_a_friend:hover{
   background-color: #FDDCC4;
+}
+
+.make_a_friend_text{
+  padding-top: 14px;
 }
 
 /*about*/
