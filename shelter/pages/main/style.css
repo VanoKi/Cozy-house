@@ -597,9 +597,19 @@ main{
   display: flex;
 }
 
+.email:hover .footer_text{
+  color: #FAFAFA;
+}
+
+.email:hover .email_image{
+  filter: brightness(0) invert(1);
+}
+
 .email_image{
   margin-right: 17px;
 }
+
+
 
 .boston{
   margin-top: 0;
