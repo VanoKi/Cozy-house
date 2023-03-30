@@ -89,6 +89,7 @@ a{
 }
 
 .active_link{
+  cursor: default;
   display: inline-block;
   border-bottom: 3px solid #F1CDB3;
   font-family: 'Arial';
@@ -244,6 +245,7 @@ main{
 }
 
 .arrow_pets{
+  cursor: default;
   padding: 0;
   width: 52px;
   height: 52px;
