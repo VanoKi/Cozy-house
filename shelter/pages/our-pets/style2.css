@@ -330,3 +330,11 @@ main{
 .london{
   margin-top: 27px;
 }
+
+.email:hover .footer_text{
+  color: #FAFAFA;
+}
+
+.email:hover .email_image{
+  filter: brightness(0) invert(1);
+}
