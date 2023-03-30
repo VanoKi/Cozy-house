@@ -2,8 +2,8 @@ html{
   --color-primary: #F1CDB3;
   --grey-bg: #F6F6F6;
   --white-bg: #FFFFFF;
-  --grad-bg: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
-  background: var(--grad-bg);
+  --grad-bg: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;
+  /* background: var(--grad-bg); */
   /*delete gradient from bg?*/
   scroll-behavior: smooth;
 }
@@ -16,10 +16,10 @@ button{
 /*header*/
 
 .header{
-  position: sticky;
+  /*position: sticky;
   top: 0;
-  z-index: 1000;
-  width: 1280px;
+  z-index: 1000;*/
+  /* width: 1280px; */
   margin: 0 auto;
   background: var(--white-bg)
 }
@@ -101,7 +101,7 @@ a{
 
 main{
   margin: 0 auto;
-  width: 1280px;
+  /* width: 1280px; */
 }
 
 .pets_section{
@@ -260,9 +260,9 @@ main{
 /*footer*/
 
 .footer{
-  width: 1280px;
+  /* width: 1280px; */
   margin: 0 auto;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;
 }
 
 .footer_container{
