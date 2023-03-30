@@ -21,7 +21,7 @@ button{
 .header{
   /* width: 1280px; */
   margin: 0 auto;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), url(../../assets/images/noise_transparent@2x.png);
 }
 .wrap{
   margin: 0 auto;
@@ -548,8 +548,9 @@ main{
 
 .footer{
   /* width: 1280px; */
-  margin: 0 auto;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;
+  /*margin: 0 auto;*/
+  /*background-image: url(../../assets/images/noise_transparent@2x.png);*/
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), url(../../assets/images/noise_transparent@2x.png);
 }
 
 .footer_container{
