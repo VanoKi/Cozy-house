@@ -2,9 +2,13 @@ html{
   --color-primary: #F1CDB3;
   --grey-bg: #F6F6F6;
   --white-bg: #FFFFFF;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  /* background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat; */  
   /*delete gradient from bg?*/
   scroll-behavior: smooth;
+}
+
+.validator{
+  display: none;
 }
 
 button{
@@ -15,9 +19,9 @@ button{
 /*header*/
 
 .header{
-  width: 1280px;
+  /* width: 1280px; */
   margin: 0 auto;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), url(../../assets/images/noise_transparent@2x.png);
 }
 .wrap{
   margin: 0 auto;
@@ -37,8 +41,13 @@ a{
   color: inherit;
   transition: .3s;
 }
+
+/*a:not(:active):hover{
+  cursor: pointer;
+}*/
+
 .main_menu{
-  margin-top: 60px;
+  padding-top: 60px;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -76,6 +85,7 @@ a{
 }
 
 .active_link{
+  cursor: default;
   display: inline-block;
   border-bottom: 3px solid #F1CDB3;
   font-family: 'Arial';
@@ -90,7 +100,16 @@ a{
   color: #FAFAFA;
 }
 .nav_text:active{
-  border-bottom: 3px, solid, #F1CDB3;
+  cursor: default;
+  display: inline-block;
+  border-bottom: 3px solid #F1CDB3;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #FAFAFA;
+  transition: .5s;
 }
 
 /*not only*/
@@ -147,6 +166,7 @@ a{
 }
 
 .make_a_friend{
+  display: block;
   width: 207px;
   height: 52px;
   background: var(--color-primary);
@@ -158,17 +178,22 @@ a{
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
+  text-align: center;
 }
 
 .make_a_friend:hover{
   background-color: #FDDCC4;
 }
 
+.make_a_friend_text{
+  padding-top: 14px;
+}
+
 /*about*/
 
 main{
   margin: 0 auto;
-  width: 1280px;
+  /* width: 1280px; */
 }
 
 .about_bg{
@@ -203,6 +228,7 @@ main{
   align-items: center;
   letter-spacing: 0.06em;
   color: #545454;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .abouy_content_text{
   font-family: 'Arial';
@@ -349,18 +375,21 @@ main{
 }
 
 .button_pets{
+  display: block;
+  padding-top: 17px;
   width: 261px;
   height: 52px;
   background: #F1CDB3;
   border: #F1CDB3;
   border-radius: 100px;
+  text-align: center;
   font-family: 'Georgia';
-  /* font-style: normal; */
-  /* font-weight: 400; */
+  font-style: normal;
+  font-weight: 400;
   font-size: 17px;
-  /* line-height: 130%; */
+  line-height: 130%;
   letter-spacing: 0.06em;
-  /* color: #292929; */
+  color: #292929;
 }
 
 .button_pets:hover{
@@ -436,7 +465,7 @@ main{
 }
 
 .addition_container{
-  width: 71.6%;
+  width: 915px;
   margin: auto;
   display: flex;
   padding-top: 78px;
@@ -527,9 +556,10 @@ main{
 /*footer*/
 
 .footer{
-  width: 1280px;
-  margin: 0 auto;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  /* width: 1280px; */
+  /*margin: 0 auto;*/
+  /*background-image: url(../../assets/images/noise_transparent@2x.png);*/
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), url(../../assets/images/noise_transparent@2x.png);
 }
 
 .footer_container{
@@ -567,9 +597,19 @@ main{
   display: flex;
 }
 
+.email:hover .footer_text{
+  color: #FAFAFA;
+}
+
+.email:hover .email_image{
+  filter: brightness(0) invert(1);
+}
+
 .email_image{
   margin-right: 17px;
 }
+
+
 
 .boston{
   margin-top: 0;

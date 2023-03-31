@@ -2,8 +2,8 @@ html{
   --color-primary: #F1CDB3;
   --grey-bg: #F6F6F6;
   --white-bg: #FFFFFF;
-  --grad-bg: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
-  background: var(--grad-bg);
+  --grad-bg: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;
+  /* background: var(--grad-bg); */
   /*delete gradient from bg?*/
   scroll-behavior: smooth;
 }
@@ -16,10 +16,10 @@ button{
 /*header*/
 
 .header{
-  position: sticky;
+  /*position: sticky;
   top: 0;
-  z-index: 1000;
-  width: 1280px;
+  z-index: 1000;*/
+  /* width: 1280px; */
   margin: 0 auto;
   background: var(--white-bg)
 }
@@ -85,10 +85,19 @@ a{
   color: #292929;
 }
 .nav_text:active{
-
+  cursor: default;
+  display: inline-block;
+  border-bottom: 3px solid #F1CDB3;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #545454;
 }
 
 .active_link{
+  cursor: default;
   display: inline-block;
   border-bottom: 3px solid #F1CDB3;
   font-family: 'Arial';
@@ -101,7 +110,7 @@ a{
 
 main{
   margin: 0 auto;
-  width: 1280px;
+  /* width: 1280px; */
 }
 
 .pets_section{
@@ -244,6 +253,7 @@ main{
 }
 
 .arrow_pets{
+  cursor: default;
   padding: 0;
   width: 52px;
   height: 52px;
@@ -260,9 +270,9 @@ main{
 /*footer*/
 
 .footer{
-  width: 1280px;
+  /* width: 1280px; */
   margin: 0 auto;
-  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat;  
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), url(../../assets/images/noise_transparent@2x.png);
 }
 
 .footer_container{
@@ -319,4 +329,12 @@ main{
 
 .london{
   margin-top: 27px;
+}
+
+.email:hover .footer_text{
+  color: #FAFAFA;
+}
+
+.email:hover .email_image{
+  filter: brightness(0) invert(1);
 }
