@@ -575,6 +575,7 @@ main{
   padding-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
   gap: 130px;
 }
 
@@ -788,34 +789,13 @@ main{
 
   /*section help*/
 
-.help{
-  background: #FFFF;
-}
-
 .wrap_help{
-  height: 611px;
+  height: 779px;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
 }
 
-.help_main_title{
-  display: flex;
-  flex-direction: column;
-  padding-top: 79px;
-  padding-bottom: 63px;
-}
-
-.help_title{
-  margin: 0 auto;
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 130%;
-  letter-spacing: 0.06em;
-  color: #545454;
-}
 .rows{
   display: flex;
   flex-wrap: wrap;
@@ -827,19 +807,6 @@ main{
   row-gap: 50px;
 }
 
-.help_item_title{
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 115%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #545454;
-}
-
 .help_item{
   width: 170px;
   height: 113px;
@@ -849,10 +816,200 @@ main{
   padding: 2px 0px;
 }
 
-.help_item_ico{
-  width: 60px;
-  height: 60px;
+/*addition*/
+
+.addition{
+  background-color: var(--grey-bg);
 }
 
+.addition_container{
+  width: 414px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  /* align-items: center; */
+  /* justify-content: stretch; */
+  padding-top: 78px;
+  padding-bottom: 89px;
+}
+
+.addition_main_content{
+  /* order: 1; */
+  width: 380px;
+  padding-left: 17px;
+}
+
+.donation_dog_image{
+  padding-top: 50px;
+  padding-left: -25px;
+  /* order: -1; */
+}
+
+.addition_main_content_title{
+  padding-top: 1px;
+  width: 300px;
+  /* margin: 0; */
+  margin-top: -1px;
+  margin-bottom: 0px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.bank{
+  margin-top: 23px;
+  margin-bottom: 19px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.bank_card{
+  width: 349px;
+  height: 43px;
+  background: #F1CDB3;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bank_card:hover{
+  background: #FDDCC4;
+}
+
+.card_ico{
+  width: 30px;
+  height: 23px;
+  margin: auto 15px;
+}
+
+.card_number{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.addition_main_conten_main_text{
+  margin-top: 19px;
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #B2B2B2;
+}
+
+/*footer*/
+
+.footer{
+  max-width: 768px;
+  /*margin: 0 auto;*/
+  /*background-image: url(../../assets/images/noise_transparent@2x.png);*/
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), url(../../assets/images/noise_transparent@2x.png);
+}
+
+.footer_container{
+  padding-top: 20px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-end: span2;
+  grid-row-gap: 65px;
+  /* gap: 34px; */
+  grid-column-gap: 33px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.footer_title{
+  margin-top: 14px;
+  margin-bottom: 30px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.footer_text{
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+
+.email{
+  display: flex;
+}
+
+.email:hover .footer_text{
+  color: #FAFAFA;
+}
+
+.email:hover .email_image{
+  filter: brightness(0) invert(1);
+}
+
+.email_image{
+  margin-right: 17px;
+}
+
+
+
+.boston{
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.phone{
+  margin-top: 24px;
+}
+
+.footer_pet{
+  padding-left: 40px;
+}
+
+.london{
+  margin-top: 27px;
+}
+
+.footer_contacts{
+  width: 279px;
+  height: 234px;
+  padding-left: 31px;
+}
+
+.footer_locations{
+  width: 302px;
+  height: 234px;
+}
 
 }
