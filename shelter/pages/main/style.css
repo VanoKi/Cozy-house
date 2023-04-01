@@ -759,30 +759,6 @@ main{
   align-items: center;
 }
 
-.section_pets_title{
-  /* width: 400px; */
-  /* display: flex; */
-  flex-direction: column;
-  /* align-items: center; */
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 130%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #545454;
-  white-space: nowrap;
-  margin-bottom: 59px;
-}
-
-.section_pets_titles_styles{
-  margin-top: 0;
-  margin-bottom: 0px;
-}
-
 .slider{
   max-width: 708px;
   height: 435px;
@@ -791,78 +767,6 @@ main{
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-}
-
-.arrow_pets{
-  padding: 0;
-  width: 52px;
-  height: 52px;
-  border: none;
-  border-radius: 25px;
-}
-
-.arrow_pets:hover{
-  background: #FDDCC4;
-}
-
-/*card*/
-
-.card{
-  width: 270px;
-  height: 435px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #FAFAFA;
-  border-radius: 9px;
-  cursor: pointer;
-}
-
-.card:hover{
-  background: #FFFFFF;
-}
-
-.card:hover .card_button{
-  background: #FDDCC4;
-}
-  
-
-
-.image{
-  margin-bottom: 6px;
-}
-
-.card_title{
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #545454;
-  margin-bottom: 30px;
-}
-
-.card_button{
-  width: 187px;
-  height: 52px;
-  border: 2px solid #F1CDB3;
-  border-radius: 100px;
-  background: #FAFAFA;
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 130%;
-  letter-spacing: 0.06em;
-  color: #292929;
-}
-
-.card_button:hover{
-  background: #FDDCC4;
 }
 
 .cards{
@@ -875,28 +779,8 @@ main{
 
 .card_woody{
   display: none;
-}
+  }
 
-.button_pets{
-  display: block;
-  padding-top: 17px;
-  width: 261px;
-  height: 52px;
-  background: #F1CDB3;
-  border: #F1CDB3;
-  border-radius: 100px;
-  text-align: center;
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 130%;
-  letter-spacing: 0.06em;
-  color: #292929;
-}
-
-.button_pets:hover{
-  background-color: #FDDCC4;
-}  
+  
 
 }
