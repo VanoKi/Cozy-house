@@ -820,11 +820,11 @@ main{
   display: flex;
   flex-wrap: wrap;
   /* align-items: center; */
-  justify-content: center;
-  margin: 0 auto;
-  padding-bottom: 24px;
-  /* column-gap: 11px; */
-  row-gap: 26px;
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  /* padding-bottom: 24px; */
+  column-gap: 62px;
+  row-gap: 50px;
 }
 
 .help_item_title{
@@ -841,10 +841,12 @@ main{
 }
 
 .help_item{
+  width: 170px;
+  height: 113px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2px 61px;
+  padding: 2px 0px;
 }
 
 .help_item_ico{
