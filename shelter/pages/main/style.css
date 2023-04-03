@@ -1562,6 +1562,7 @@ main{
 }
 
 .email{
+  margin-top: 25px;
   display: flex;
 }
 
@@ -1581,7 +1582,7 @@ main{
 
 .boston{
   margin-top: 13px;
-  margin-bottom: 12px;
+  margin-bottom: -11px;
   padding-left: 10px;
 }
 
@@ -1605,10 +1606,11 @@ main{
 }
 
 .footer_locations{
+  padding-left: 0px;
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
-  width: 302px;
+  width: 299px;
   height: 234px;
 }
 
