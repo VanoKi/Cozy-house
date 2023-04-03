@@ -725,6 +725,10 @@ main{
     height: 22px;
     background: url(../../assets/icons/Burger_black.svg);
   }
+
+  .nav_wrap{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 320px){
