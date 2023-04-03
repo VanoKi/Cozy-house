@@ -116,6 +116,13 @@ a{
   transition: .5s;
 }
 
+.burger_ico{
+  display: none;
+  width: 30px;
+  height: 22px;
+  background: url(../../assets/icons/Burger.svg);
+}
+
 /*not only*/
 .section_not_only{
   /*height: 728px;*/
@@ -1034,6 +1041,17 @@ main{
 
 }
 
+@media screen and (max-width: 767px){
+  .burger_ico{
+    margin-right: 44px;
+    margin-top: 19px;
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url(../../assets/icons/Burger.svg);
+  }
+}
+
 @media screen and (max-width: 320px){
 
   .nav_wrap{
@@ -1167,7 +1185,7 @@ main{
     padding: 9px 39px;
     width: 224px;
     margin-top: 24px;
-    margin-bottom: 13px;
+    margin-bottom: 14px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1193,7 +1211,7 @@ main{
     /* display: flex; */
     /* align-items: center; */
     color: #4C4C4C;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
     text-align: justify;
   }
 
@@ -1428,6 +1446,8 @@ main{
   /* padding-top: 50px; */
   padding-left: -25px;
   /* order: -1; */
+  margin-left: 1px;
+  margin-top: 30px;
   background: url(../../assets/images/donation-dog320.png) no-repeat;
 }
 
@@ -1465,7 +1485,8 @@ main{
 }
 
 .bank_card{
-  width: 276px;
+  margin-left: -8px;
+  width: 283px;
   height: 43px;
   background: #F1CDB3;
   border-radius: 9px;
