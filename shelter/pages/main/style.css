@@ -1334,7 +1334,7 @@ main{
 .wrap_help{
   padding-top: 30px;
   max-width: 300px;
-  height: 745px;
+  height: 702px;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -1398,8 +1398,9 @@ main{
 }
 
 .addition_container{
+  /* padding-top: 36px; */
   max-width: 300px;
-  height: 500px;
+  height: 542px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -1411,6 +1412,7 @@ main{
 }
 
 .addition_main_content{
+  padding-top: 43px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1522,7 +1524,7 @@ main{
   align-items: center;
   /* column-gap: 47px; */
   row-gap: 5px;
-  /* padding-top: 17px; */
+  padding-top: 17px;
   /* display: grid; */
   /* grid-template-rows: repeat(3, 1fr); */
   /* grid-template-columns: repeat(2, 1fr); */
@@ -1562,7 +1564,7 @@ main{
 }
 
 .email{
-  margin-top: 25px;
+  margin-top: 32px;
   display: flex;
 }
 
@@ -1575,7 +1577,7 @@ main{
 }
 
 .email_image{
-  margin-right: 17px;
+  margin-right: 13px;
 }
 
 
@@ -1587,7 +1589,7 @@ main{
 }
 
 .phone{
-  margin-top: 45px;
+  margin-top: 60px;
   padding-left: 15px;
 }
 
@@ -1606,6 +1608,7 @@ main{
 }
 
 .footer_locations{
+  padding-top: 6px;
   padding-left: 0px;
   /* display: flex; */
   /* flex-direction: column; */
