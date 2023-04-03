@@ -642,6 +642,11 @@ main{
   margin-top: 27px;
 }
 
+.footer_puppy{
+  height: 310px;
+  background: url(../../assets/images/footer-puppy.png) no-repeat;
+}
+
 /*media*/
 
 @media screen and (max-width: 768px){
@@ -940,8 +945,8 @@ main{
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: repeat(2, 1fr);
-  grid-row-end: span2;
-  grid-row-gap: 65px;
+  /* grid-row-end: span2; */
+  grid-row-gap: 81px;
   /* gap: 34px; */
   grid-column-gap: 33px;
   /* display: flex; */
@@ -973,6 +978,7 @@ main{
 }
 
 .email{
+  margin-top: 0px;
   display: flex;
 }
 
@@ -985,7 +991,7 @@ main{
 }
 
 .email_image{
-  margin-right: 17px;
+  margin-right: 22px;
 }
 
 
@@ -996,7 +1002,7 @@ main{
 }
 
 .phone{
-  margin-top: 24px;
+  margin-top: 48px;
 }
 
 .footer_pet{
@@ -1014,8 +1020,15 @@ main{
 }
 
 .footer_locations{
+  padding-left: 17px;
   width: 302px;
   height: 234px;
+}
+
+.footer_puppy{
+  margin-left: 204px;
+  grid-column: 1/span2;
+  background: url(../../assets/images/footer-puppy.png) no-repeat;
 }
 
 }
@@ -1596,6 +1609,13 @@ main{
   /* align-items: center; */
   width: 302px;
   height: 234px;
+}
+
+.footer_puppy{
+  margin-top: 41px;
+  width: 260px;
+  height: 269px;
+  background-image: url(../../assets/images/footer-puppy320.png);
 }
 
 }
