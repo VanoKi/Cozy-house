@@ -850,6 +850,7 @@ main{
 }
 
 .donation_dog_image{
+  width: 515px;
   margin-top: 51px;
   /* padding-top: 50px; */
   padding-left: -25px;
@@ -1066,7 +1067,7 @@ main{
   /*not only*/
 
   .section_not_only{
-    /* width: 320px; */
+    width: 320px;
     height: 734px;
     /*margin-bottom: 80px;*/
   }
@@ -1120,10 +1121,10 @@ main{
   }
   
   .puppy{
-    /* margin-top: 160px; */
-    /* margin-left: 98px; */
+    margin-top: 161px;
+    margin-left: 41px;
     background: url(../../assets/images/start-screen-puppy320.png) no-repeat;
-    width: 309px;
+    width: 260px;
     height: 271px;
     /* padding-top: 55px; */
   }
@@ -1144,7 +1145,7 @@ main{
   
   main{
     margin: 0 auto;
-    /* width: 1280px; */
+    max-width: 320px;
   }
   
   .about_bg{
@@ -1612,6 +1613,7 @@ main{
 }
 
 .footer_puppy{
+  margin-left: 0px;
   margin-top: 41px;
   width: 260px;
   height: 269px;
