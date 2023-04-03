@@ -112,6 +112,10 @@ a{
   color: #545454;
 }
 
+.burger_ico{
+  display: none;
+}
+
 main{
   margin: 0 auto;
   /* width: 1280px; */
@@ -712,6 +716,21 @@ main{
 
 }
 
+@media screen and (max-width: 767px){
+  .burger_ico{
+    margin-right: 44px;
+    margin-top: 19px;
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url(../../assets/icons/Burger_black.svg);
+  }
+
+  .nav_wrap{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 320px){
 
   /*header*/
@@ -1023,7 +1042,7 @@ main{
 .footer_title{
   text-align: center;
   width: 232px;
-  padding-left: 25px;
+  padding-left: 33px;
   margin-top: 14px;
   margin-bottom: 22px;
   /* font-family: 'Georgia'; */
@@ -1061,7 +1080,7 @@ main{
 }
 
 .email_image{
-  margin-right: 17px;
+  margin-right: 10px;
 }
 
 
@@ -1092,6 +1111,7 @@ main{
 }
 
 .footer_locations{
+  margin-left: -16px;
   /* display: flex; */
   /* flex-direction: column; */
   /* align-items: center; */
@@ -1106,4 +1126,5 @@ main{
   height: 269px;
   background-image: url(../../assets/images/footer-puppy320.png);
 }
+
 }
