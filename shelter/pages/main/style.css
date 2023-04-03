@@ -1199,7 +1199,7 @@ main{
 /*pets*/
 
 .section_pets{
-  height: 791px;
+  height: 762px;
   background: #F6F6F6;
   padding-top: 56px;
 }
@@ -1318,7 +1318,9 @@ main{
   /*section help*/
 
 .wrap_help{
+  padding-top: 30px;
   max-width: 300px;
+  height: 745px;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -1342,12 +1344,13 @@ main{
   /* align-items: center; */
   justify-content: start;
   /* margin: 0 auto; */
-  /* padding-bottom: 24px; */
+  padding-bottom: 0;
   column-gap: 28px;
   row-gap: 27px;
 }
 
 .help_item_ico {
+  padding-bottom: 1px;
   width: 50px;
   height: 50px;
 }
@@ -1371,7 +1374,7 @@ main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2px 0px;
+  /* padding: 2px 0px; */
 }
 
 /*addition*/
@@ -1382,25 +1385,31 @@ main{
 
 .addition_container{
   max-width: 300px;
+  height: 500px;
   margin: auto;
   display: flex;
   flex-direction: column;
   flex-flow: column-reverse;
-  /* align-items: center; */
+  align-items: center;
   /* justify-content: stretch; */
-  padding-top: 0;
-  padding-bottom: 89px;
+  padding-top: 0px;
+  padding-bottom: 0;
 }
 
 .addition_main_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
   /* order: 1; */
-  width: 380px;
-  padding-left: 17px;
+  width: 300px;
+  padding-left: 3px;
 }
 
 .donation_dog_image{
-  /* width: 260px; */
-  padding-top: 50px;
+  width: 260px;
+  margin-top: 18px;
+  /* padding-top: 50px; */
   padding-left: -25px;
   /* order: -1; */
   background: url(../../assets/images/donation-dog320.png) no-repeat;
@@ -1411,8 +1420,8 @@ main{
   padding-top: 1px;
   width: 229px;
   /* margin: 0; */
-  margin-top: -1px;
-  margin-bottom: 0px;
+  /* margin-top: 0; */
+  /* margin-bottom: 0px; */
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -1425,8 +1434,9 @@ main{
 }
 
 .bank{
-  margin-top: 23px;
-  margin-bottom: 19px;
+  width: 308px;
+  margin-top: 22px;
+  margin-bottom: 25px;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -1439,7 +1449,7 @@ main{
 }
 
 .bank_card{
-  width: 349px;
+  width: 276px;
   height: 43px;
   background: #F1CDB3;
   border-radius: 9px;
@@ -1461,7 +1471,7 @@ main{
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 115%;
   display: flex;
   align-items: center;
@@ -1470,6 +1480,7 @@ main{
 }
 
 .addition_main_conten_main_text{
+  width: 281px;
   margin-top: 19px;
   font-family: 'Arial';
   font-style: italic;
@@ -1479,40 +1490,49 @@ main{
   display: flex;
   align-items: center;
   color: #B2B2B2;
+  text-align: justify;
 }
 
 /*footer*/
 
 .footer{
-  max-width: 768px;
+  max-width: 320px;
   /*margin: 0 auto;*/
   /*background-image: url(../../assets/images/noise_transparent@2x.png);*/
   background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), url(../../assets/images/noise_transparent@2x.png);
 }
 
 .footer_container{
-  padding-top: 20px;
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-end: span2;
-  grid-row-gap: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* column-gap: 47px; */
+  row-gap: 5px;
+  /* padding-top: 17px; */
+  /* display: grid; */
+  /* grid-template-rows: repeat(3, 1fr); */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-row-end: span2; */
+  /* grid-row-gap: 65px; */
   /* gap: 34px; */
-  grid-column-gap: 33px;
+  /* grid-column-gap: 33px; */
   /* display: flex; */
   /* flex-wrap: wrap; */
 }
 
 .footer_title{
-  margin-top: 14px;
-  margin-bottom: 30px;
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 130%;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
+  text-align: center;
+  width: 232px;
+  padding-left: 25px;
+  /* margin-top: 14px; */
+  /* margin-bottom: 30px; */
+  /* font-family: 'Georgia'; */
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  font-size: 25px;
+  /* line-height: 130%; */
+  /* letter-spacing: 0.06em; */
+  /* color: #FFFFFF; */
 }
 
 .footer_text{
@@ -1546,12 +1566,14 @@ main{
 
 
 .boston{
-  margin-top: 0px;
-  margin-bottom: 8px;
+  margin-top: 13px;
+  margin-bottom: 12px;
+  padding-left: 10px;
 }
 
 .phone{
-  margin-top: 24px;
+  margin-top: 45px;
+  padding-left: 15px;
 }
 
 .footer_pet{
@@ -1565,10 +1587,13 @@ main{
 .footer_contacts{
   width: 279px;
   height: 234px;
-  padding-left: 31px;
+  padding-left: 0;
 }
 
 .footer_locations{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
   width: 302px;
   height: 234px;
 }
