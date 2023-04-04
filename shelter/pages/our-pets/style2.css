@@ -1071,7 +1071,7 @@ main{
 
 @media screen and (max-width: 767px){
   .burger_ico{
-    margin-right: 44px;
+    margin-right: 20px;
     margin-top: 19px;
     display: block;
     width: 30px;
@@ -1509,8 +1509,8 @@ a{
   display: flex;
   justify-content: space-between;
   /* margin-bottom: 60px; */
-  padding-top: 18px;
-  padding-left: 0px;
+  padding-top: 30px;
+  padding-left: 20px;
   padding-bottom: 29px;
 }
 .main_title{
