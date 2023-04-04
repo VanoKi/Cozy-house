@@ -1430,7 +1430,7 @@ main{
 
 @media screen and (max-width: 767px){
   .burger_ico{
-    margin-right: 44px;
+    margin-right: 11px;
     margin-top: 19px;
     display: block;
     width: 30px;
@@ -2043,6 +2043,10 @@ main{
 
 @media screen and (max-width: 320px){
 
+  .logo{
+    margin-left: 9px;
+  }
+
   .nav_wrap{
     display: none;
   }
@@ -2121,9 +2125,9 @@ main{
   
   .not_only_main{
     text-align: center;
-    padding-left: 10px;
+    padding-left: 5px;
     width: 291px;
-    margin-bottom: 39px;
+    margin-bottom: 41px;
     margin-right: 0px;
   }
   
@@ -2360,18 +2364,18 @@ main{
 
 .rows{
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: row;
   flex-wrap: wrap;
   /* align-items: center; */
   justify-content: start;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding-bottom: 0;
-  column-gap: 28px;
+  column-gap: 29px;
   row-gap: 27px;
 }
 
 .help_item_ico {
-  padding-bottom: 1px;
+  padding-bottom: 0;
   width: 50px;
   height: 50px;
 }
@@ -2390,7 +2394,7 @@ main{
 }
 
 .help_item{
-  width: 130px;
+  width: 125px;
   height: 87px;
   display: flex;
   flex-direction: column;
@@ -2426,7 +2430,7 @@ main{
   margin: 0 auto;
   /* order: 1; */
   width: 300px;
-  padding-left: 3px;
+  padding-left: 1px;
 }
 
 .donation_dog_image{
@@ -2459,17 +2463,18 @@ main{
 }
 
 .bank{
+  padding-left: 32px;
   width: 308px;
-  margin-top: 22px;
-  margin-bottom: 25px;
+  margin-top: 19px;
+  margin-bottom: 21px;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 110%;
+  line-height: 24px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.01em;
   color: #545454;
 }
 
