@@ -951,6 +951,7 @@ main{
 }
 
 .footer_container{
+  margin: 0;
   max-width: 60%;
   padding-top: 20px;
   display: grid;
