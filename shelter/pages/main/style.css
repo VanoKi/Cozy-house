@@ -603,7 +603,7 @@ main{
 }
 
 .footer_text{
-  margin-top: 6px;
+  margin-top: 1px;
   margin-bottom: 0;
   font-family: 'Georgia';
   font-style: normal;
@@ -653,6 +653,37 @@ main{
   margin-left: 12px;
   height: 310px;
   background: url(../../assets/images/footer-puppy.png) no-repeat;
+}
+
+
+.footer_contacts_title{
+
+}
+
+.footer_locations_title{
+  margin-left: -5px;
+  padding-top: 3px;
+}
+
+.email_container{
+
+padding-left: 2px;
+
+padding-top: 12px;
+}
+
+.boston{
+    margin-top: -2px;
+}
+.location_boston{
+    display: flex;
+    flex-direction: row;
+    align-items: с;
+}
+.location_london{
+    display: flex;
+    margin-top: 3px;
+    flex-direction: row;
 }
 
 /*media*/
@@ -1433,13 +1464,17 @@ main{
 }
 
 .footer_locations_title{
-  padding-left: 1px;
-  padding-top: 3px;
+  
+padding-left: 1px;
+  
+padding-top: 3px;
 }
 
 .email_container{
-padding-left: 2px;
-padding-top: 12px;
+
+padding-left: 2px;
+
+padding-top: 12px;
 }
 
 .boston{
