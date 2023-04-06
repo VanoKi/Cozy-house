@@ -51,11 +51,11 @@ a{
 }*/
 
 .main_menu{
-  padding-top: 60px;
+  padding-top: 30px;
   height: 60px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
+  margin-bottom: 89px;
 }
 .main_title{
   margin: 0 auto;
@@ -250,7 +250,7 @@ main{
   display: flex;
   align-items: center;
   color: #4C4C4C;
-  margin-bottom: 25px;
+  margin-bottom: 26px;
 }
 
 /*pets*/
@@ -603,7 +603,7 @@ main{
 }
 
 .footer_text{
-  margin-top: 6px;
+  margin-top: 1px;
   margin-bottom: 0;
   font-family: 'Georgia';
   font-style: normal;
@@ -650,8 +650,40 @@ main{
 }
 
 .footer_puppy{
+  margin-left: 12px;
   height: 310px;
   background: url(../../assets/images/footer-puppy.png) no-repeat;
+}
+
+
+.footer_contacts_title{
+
+}
+
+.footer_locations_title{
+  margin-left: -5px;
+  padding-top: 3px;
+}
+
+.email_container{
+
+padding-left: 2px;
+
+padding-top: 12px;
+}
+
+.boston{
+    margin-top: -2px;
+}
+.location_boston{
+    display: flex;
+    flex-direction: row;
+    align-items: с;
+}
+.location_london{
+    display: flex;
+    margin-top: 3px;
+    flex-direction: row;
 }
 
 /*media*/
@@ -950,6 +982,7 @@ main{
 }
 
 .footer_container{
+  margin: 0;
   max-width: 60%;
   padding-top: 20px;
   display: grid;
@@ -1350,7 +1383,7 @@ main{
 
 .footer_title{
   margin-top: 14px;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -1361,7 +1394,7 @@ main{
 }
 
 .footer_text{
-  margin-top: 8px;
+  margin-top: 3px;
   margin-bottom: 0;
   font-family: 'Georgia';
   font-style: normal;
@@ -1426,11 +1459,42 @@ main{
   background: url(../../assets/images/footer-puppy.png) no-repeat;
 }
 
+.footer_contacts_title{
+
+}
+
+.footer_locations_title{
+  
+padding-left: 1px;
+  
+padding-top: 3px;
+}
+
+.email_container{
+
+padding-left: 2px;
+
+padding-top: 12px;
+}
+
+.boston{
+    /* margin-top: 20px; */
+}
+.location_boston{
+    display: flex;
+    flex-direction: row;
+    align-items: с;
+}
+.location_london{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+}
 }
 
 @media screen and (max-width: 767px){
   .burger_ico{
-    margin-right: 44px;
+    margin-right: 11px;
     margin-top: 19px;
     display: block;
     width: 30px;
@@ -2043,6 +2107,10 @@ main{
 
 @media screen and (max-width: 320px){
 
+  .logo{
+    margin-left: 9px;
+  }
+
   .nav_wrap{
     display: none;
   }
@@ -2121,9 +2189,9 @@ main{
   
   .not_only_main{
     text-align: center;
-    padding-left: 10px;
+    padding-left: 5px;
     width: 291px;
-    margin-bottom: 39px;
+    margin-bottom: 41px;
     margin-right: 0px;
   }
   
@@ -2360,18 +2428,18 @@ main{
 
 .rows{
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: row;
   flex-wrap: wrap;
   /* align-items: center; */
   justify-content: start;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding-bottom: 0;
-  column-gap: 28px;
+  column-gap: 29px;
   row-gap: 27px;
 }
 
 .help_item_ico {
-  padding-bottom: 1px;
+  padding-bottom: 0;
   width: 50px;
   height: 50px;
 }
@@ -2390,7 +2458,7 @@ main{
 }
 
 .help_item{
-  width: 130px;
+  width: 125px;
   height: 87px;
   display: flex;
   flex-direction: column;
@@ -2426,7 +2494,7 @@ main{
   margin: 0 auto;
   /* order: 1; */
   width: 300px;
-  padding-left: 3px;
+  padding-left: 1px;
 }
 
 .donation_dog_image{
@@ -2459,17 +2527,18 @@ main{
 }
 
 .bank{
+  padding-left: 32px;
   width: 308px;
-  margin-top: 22px;
-  margin-bottom: 25px;
+  margin-top: 19px;
+  margin-bottom: 21px;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 110%;
+  line-height: 24px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.01em;
   color: #545454;
 }
 
@@ -2551,7 +2620,7 @@ main{
   width: 232px;
   padding-left: 25px;
   /* margin-top: 14px; */
-  /* margin-bottom: 30px; */
+  margin-bottom: 0px;
   /* font-family: 'Georgia'; */
   /* font-style: normal; */
   /* font-weight: 400; */
@@ -2574,7 +2643,8 @@ main{
 }
 
 .email{
-  margin-top: 32px;
+  margin-top: 36px;
+  margin-left: 8px;
   display: flex;
 }
 
@@ -2587,20 +2657,21 @@ main{
 }
 
 .email_image{
-  margin-right: 13px;
+  margin-right: 14px;
 }
 
 
 
 .boston{
-  margin-top: 13px;
-  margin-bottom: -11px;
-  padding-left: 10px;
+  /* width: 297px; */
+  margin-top: 0px;
+  /* margin-bottom: -57px; */
+  padding-left: 0;
 }
 
 .phone{
-  margin-top: 60px;
-  padding-left: 15px;
+  margin-top: 41px;
+  padding-left: 16px;
 }
 
 .footer_pet{
@@ -2608,7 +2679,8 @@ main{
 }
 
 .london{
-  margin-top: 27px;
+  margin-top: 38px;
+  margin-left: 4px;
 }
 
 .footer_contacts{
@@ -2620,11 +2692,11 @@ main{
 .footer_locations{
   padding-top: 6px;
   padding-left: 0px;
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   /* align-items: center; */
   width: 299px;
-  height: 234px;
+  height: 233px;
 }
 
 .footer_puppy{
@@ -2635,4 +2707,35 @@ main{
   background-image: url(../../assets/images/footer-puppy320.png);
 }
 
+.footer_contacts_title{
+
+}
+
+.footer_locations_title{
+  
+padding-left: 32px;
+  
+padding-top: 3px;
+}
+
+.email_container{
+
+padding-left: 11px;
+
+padding-top: 0px;
+}
+
+.boston{
+    margin-top: 20px;
+}
+.location_boston{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.location_london{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+}
 }
