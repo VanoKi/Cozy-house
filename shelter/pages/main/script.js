@@ -83,8 +83,7 @@ cards.sort(() => Math.random() - 0.5)
 cards.forEach((card) => container.appendChild(card))
 //end card mix
 
-// JavaScript-код
-// const container = document.getElementById("container");
+// slider
 const prevBtn = document.querySelector(".left_arrow");
 const nextBtn = document.querySelector(".right_arrow");
 
@@ -105,7 +104,7 @@ function showCards() {
 
 function slideNext() {
   currentIndex += cardsToShow
-  if (currentIndex >= cards.length) {
+  if (currentIndex + cardsToShow >= cards.length) {
     currentIndex = 0
   }
   showCards()
