@@ -87,7 +87,9 @@ cards.forEach((card) => container.appendChild(card))
 const prevBtn = document.querySelector(".left_arrow");
 const nextBtn = document.querySelector(".right_arrow");
 
-const cardsToShow = 3;
+// let mq = window.matchMedia('(max-width: 1200px)');
+
+let cardsToShow = 3;
 let currentIndex = 0;
 
 function showCards() {
@@ -123,3 +125,21 @@ prevBtn.addEventListener("click", slidePrev);
 nextBtn.addEventListener("click", slideNext);
 
 showCards()
+
+function handleResize(){
+  // const windowWidth = window.innerWidth
+  if (window.innerWidth >= 1220){
+    cardsToShow = 3
+    showCards()
+  } else if (window.innerWidth >= 700) {
+    cardsToShow = 2
+    showCards()
+  } else {
+    cardsToShow = 1
+    showCards()
+  }
+}
+
+window.addEventListener('resize', handleResize);
+
+// showCards();

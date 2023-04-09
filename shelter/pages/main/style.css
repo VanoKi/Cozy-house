@@ -383,6 +383,19 @@ main{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* transition: transform 0.3s ease-in-out; */
+  animation-name: slide-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .button_pets{
