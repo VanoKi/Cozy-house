@@ -83,3 +83,43 @@ cards.sort(() => Math.random() - 0.5)
 cards.forEach((card) => container.appendChild(card))
 //end card mix
 
+// JavaScript-код
+// const container = document.getElementById("container");
+const prevBtn = document.querySelector(".left_arrow");
+const nextBtn = document.querySelector(".right_arrow");
+
+const cardsToShow = 3;
+let currentIndex = 0;
+
+function showCards() {
+  const start = currentIndex
+  const end = start + cardsToShow;
+  cards.forEach((card, index) => {
+    if (index >= start && index < end){
+      card.classList.remove('hidden')
+    } else{
+      card.classList.add('hidden')
+    }
+  }) 
+}
+
+function slideNext() {
+  currentIndex += cardsToShow
+  if (currentIndex >= cards.length) {
+    currentIndex = 0
+  }
+  showCards()
+}
+
+function slidePrev () {
+  currentIndex -= cardsToShow
+  if (currentIndex < 0) {
+    currentIndex = cards.length - cardsToShow
+  }
+  showCards()
+}
+
+prevBtn.addEventListener("click", slidePrev);
+nextBtn.addEventListener("click", slideNext);
+
+showCards()
