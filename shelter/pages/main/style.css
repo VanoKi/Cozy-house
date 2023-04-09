@@ -328,6 +328,7 @@ main{
   background: #FAFAFA;
   border-radius: 9px;
   cursor: pointer;
+  transition: .5s ease-in-out;
 }
 
 .card:hover{
@@ -707,6 +708,8 @@ padding-top: 12px;
 
 .hidden{
   display:  none;
+  transform: translateX(-100%);
+  opacity: 0;
 }
 
 .card_1{}
@@ -1541,6 +1544,11 @@ padding-top: 12px;
 }
 
 @media screen and (max-width: 700px) {
+
+  .hidden{
+    display:  none;
+  }
+
   .nav_wrap{
     display: none;
   }
@@ -2138,6 +2146,10 @@ padding-top: 12px;
 }
 
 @media screen and (max-width: 320px){
+
+  .hidden{
+    display:  none;
+  }
 
   .logo{
     margin-left: 9px;

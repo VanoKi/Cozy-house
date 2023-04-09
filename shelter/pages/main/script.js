@@ -87,17 +87,40 @@ cards.forEach((card) => container.appendChild(card))
 const prevBtn = document.querySelector(".left_arrow");
 const nextBtn = document.querySelector(".right_arrow");
 
-// let mq = window.matchMedia('(max-width: 1200px)');
-
 let cardsToShow = 3;
 let currentIndex = 0;
+
+function handleResize(){
+  // const windowWidth = window.innerWidth
+  if (screen.width < 701){
+    cardsToShow = 1
+    // showCards()
+  } else if (screen.width < 1220 && screen.width >= 700) {
+    cardsToShow = 2
+  } else {
+    cardsToShow = 3
+  }
+    // showCards()
+  // } else if (screen.width < 700) {
+  //   cardsToShow = 1
+    // showCards()
+  
+  showCards()
+}
+
+handleResize()
+window.addEventListener('resize', handleResize);
 
 function showCards() {
   const start = currentIndex
   const end = start + cardsToShow;
   cards.forEach((card, index) => {
-    if (index >= start && index < end){
-      card.classList.remove('hidden')
+    if (cardsToShow === 1 && index !== start){
+      card.classList.add('hidden')
+    } else if (index >= start && index < end){
+      setTimeout(() => {
+        card.classList.remove('hidden')
+      }, index * 150)
     } else{
       card.classList.add('hidden')
     }
@@ -124,22 +147,11 @@ function slidePrev () {
 prevBtn.addEventListener("click", slidePrev);
 nextBtn.addEventListener("click", slideNext);
 
-showCards()
-
-function handleResize(){
-  // const windowWidth = window.innerWidth
-  if (window.innerWidth >= 1220){
-    cardsToShow = 3
-    showCards()
-  } else if (window.innerWidth >= 700) {
-    cardsToShow = 2
-    showCards()
-  } else {
-    cardsToShow = 1
-    showCards()
-  }
-}
-
-window.addEventListener('resize', handleResize);
+// showCards()
 
 // showCards();
+
+console.log(window.innerWidth);
+console.log(screen.width);
+console.log(typeof screen.width);
+console.log(cardsToShow);
