@@ -74,7 +74,7 @@
 
 //card mix
 const container = document.getElementById('container')
-const cards = Array.from(container.querySelectorAll('.card'))
+let cards = Array.from(container.querySelectorAll('.card'))
 
 // console.log(cards);
 
@@ -104,7 +104,8 @@ function showCards() {
 
 function slideNext() {
   currentIndex += cardsToShow
-  if (currentIndex + cardsToShow >= cards.length) {
+  if (currentIndex + cardsToShow > cards.length) {
+    cards = cards.sort(() => Math.random() - 0.5);
     currentIndex = 0
   }
   showCards()
