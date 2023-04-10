@@ -151,7 +151,8 @@ nextBtn.addEventListener("click", slideNext);
 
 // showCards();
 
-console.log(window.innerWidth);
-console.log(screen.width);
-console.log(typeof screen.width);
-console.log(cardsToShow);
+// console.log(window.innerWidth);
+// console.log(screen.width);
+// console.log(typeof screen.width);
+// console.log(cardsToShow);
+alert('Реализован не весь фугкционал. Это будет исправлено в ближайшее время. Если у вас есть возможность, повремените немного с проверкой. Благодарю за понимание')
