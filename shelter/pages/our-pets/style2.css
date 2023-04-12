@@ -356,7 +356,7 @@ main{
 /*pop up*/
 
 .popup_container{
-  /* display: none; */
+  display: none;
 
   position: fixed;
   top: 0;
@@ -366,8 +366,12 @@ main{
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
 
-  display: flex;
+  /* display: flex; */
 
+}
+
+.popup_container.active{
+  display: flex;
 }
 
 .popup_middle{
