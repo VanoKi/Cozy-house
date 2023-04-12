@@ -353,6 +353,16 @@ main{
   background: url(../../assets/images/footer-puppy.png) no-repeat;
 }
 
+.popup_container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
 @media screen and (max-width: 1220px){
   /*header*/
 
