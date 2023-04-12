@@ -20,13 +20,8 @@ allCards.slice(0, mySlice).forEach((card) => container.appendChild(card))
 
 //popup
 
-const card = document.querySelector('.card')
 const popup = document.querySelector('.popup_container')
 const popupCard = document.querySelector('.popup_card');
-
-card.addEventListener('click', () => {
-  popup.style.display = 'flex';
-})
 
 const closePopUp = document.querySelector('.close')
 
@@ -39,3 +34,12 @@ popup.addEventListener('click', (event) => {
     popup.style.display = 'none';
   }
 });
+
+const cards2 = document.querySelectorAll('.card')
+cards2.forEach(card => {
+  card.addEventListener('click', () => {
+    const cardId = card.classList[1];
+    const popId = document.getElementById(cardId)
+    popId.style.display = 'flex';
+  })
+})
