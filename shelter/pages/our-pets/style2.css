@@ -468,11 +468,17 @@ color: #000000;
   font-weight: bold;
 }
 
-.close{
-  position: absolute;
-  top: -52px;
-  right: -44px;
+.close{  
+position: absolute; 
+top: -52px; 
+right: -44px;
+cursor: pointer;
 }
+.close:hover{
+  background: #F1CDB3;
+  border-radius: 24px;
+}
+
 
 @media screen and (max-width: 1220px){
   /*header*/
