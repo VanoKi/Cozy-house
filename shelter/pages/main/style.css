@@ -128,13 +128,13 @@ a{
   cursor: pointer;
 }
 
-.burger_ico.rotate {
+.rotate {
   transform: rotate(90deg);
 }
 
 
 .burger_wrap{
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 110px;
   left: 0;
@@ -142,6 +142,12 @@ a{
   height: 90vh;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
+  transform: translateX(100%) 0.3s ease-out;
+  /* transition: transform 0.3s ease-out */
+}
+
+.hide{
+  display: none;
 }
 
 .burger_span{
