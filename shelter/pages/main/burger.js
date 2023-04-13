@@ -18,3 +18,11 @@ link.forEach(a => {
     body2.classList.toggle('no-scroll');
   })
 })
+
+  burgerWrap.addEventListener('click', (event) =>{
+    if (!event.target.closest('.main_burger')){
+      burgerIco.classList.toggle('rotate');
+      burgerWrap.classList.toggle('hide');
+      body2.classList.toggle('no-scroll');
+    }
+  })
