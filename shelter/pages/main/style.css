@@ -134,6 +134,9 @@ a{
 
 
 .burger_wrap{
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
   /* display: none; */
   position: fixed;
   top: 110px;
@@ -142,12 +145,14 @@ a{
   height: 90vh;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
-  transform: translateX(100%) 0.3s ease-out;
+  /* transform: translateX(100%) 0.3s ease-out; */
   /* transition: transform 0.3s ease-out */
 }
 
 .hide{
-  display: none;
+  /* display: none; */
+  opacity: 0;
+  visibility: hidden;
 }
 
 .burger_span{
