@@ -20,26 +20,34 @@ allCards.slice(0, mySlice).forEach((card) => container.appendChild(card))
 
 //popup
 
+let popId = ''
+const cards2 = document.querySelectorAll('.card')
+cards2.forEach(card => {
+  card.addEventListener('click', () => {
+    const cardId = card.classList[1];
+           popId = document.getElementById(cardId)
+    popId.style.display = 'flex';
+  })
+})
+
 const popup = document.querySelector('.popup_container')
 const popupCard = document.querySelector('.popup_card');
 
 const closePopUp = document.querySelector('.close')
 
-closePopUp.addEventListener('click', () => {
-  popup.style.display ='none';
-})
-
-popup.addEventListener('click', (event) => {
-  if (event.target === popup && !popupCard.contains(event.target)) {
-    popup.style.display = 'none';
-  }
-});
-
-const cards2 = document.querySelectorAll('.card')
-cards2.forEach(card => {
-  card.addEventListener('click', () => {
-    const cardId = card.classList[1];
-    const popId = document.getElementById(cardId)
-    popId.style.display = 'flex';
+const divEl = document.querySelectorAll('.popup_container');
+divEl.forEach(el => {
+  el.addEventListener('click', (event) =>{
+    if (!event.target.closest('.popup_card')){
+    el.style.display = 'none';
+    }
   })
 })
+
+const close = document.querySelectorAll('.close');
+close.forEach(closeBtn => {
+  closeBtn.addEventListener('click', () => {
+    const parentPopup = closeBtn.closest('.popup_container');
+    parentPopup.style.display = 'none';
+  });
+});
