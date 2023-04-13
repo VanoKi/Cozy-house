@@ -11,6 +11,10 @@ body{
   overflow-x: hidden
 }
 
+.no-scroll{
+  overflow: hidden;
+}
+
 .validator{
   display: none;
 }

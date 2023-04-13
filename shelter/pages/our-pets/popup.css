@@ -1,0 +1,129 @@
+/*pop up*/
+
+.popup_container{
+  display: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+
+  /* display: flex; */
+
+}
+
+.popup_container.active{
+  display: flex;
+}
+
+.popup_middle{
+  /* opacity: 0; */
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
+  /* width: 74.375%; */
+  /* width: 952px; */
+}
+
+.popup_card{
+  position: relative;
+  width: 900px;
+  background: #FFFFFF;
+  display: flex;
+  border-radius: 8px;
+}
+
+.popup_image{
+  /* background: url(../../assets/images/pets-jennifer.png);*/
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.popup_text{
+  padding-top: 50px;
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  /* align-content: center; */
+}
+
+.popup_header{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+/* or 45px */
+
+letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+
+.popup_summary{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* identical to box height, or 23px */
+
+letter-spacing: 0.06em;
+
+color: #000000
+}
+
+.popup_main_text{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+/* or 17px */
+
+letter-spacing: 0.06em;
+
+color: #000000;
+}
+
+.popup_list{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+/* identical to box height, or 17px */
+  letter-spacing: 0.06em;
+  color: #000000;
+  margin-left: -29px;
+  padding: 0px;
+}
+
+
+.bold_text{
+  font-weight: bold;
+}
+
+.add_dot::before{
+  content: '. ';
+  color: #F1CDB3;
+  font-weight: bold;
+}
+
+.close{  
+position: absolute; 
+top: -52px; 
+right: -44px;
+cursor: pointer;
+}
+.close:hover{
+  background: #F1CDB3;
+  border-radius: 24px;
+}
