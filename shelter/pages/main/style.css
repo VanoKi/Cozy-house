@@ -128,8 +128,13 @@ a{
   cursor: pointer;
 }
 
+.burger_ico.rotate {
+  transform: rotate(90deg);
+}
+
+
 .burger_wrap{
-  /* display: none; */
+  display: none;
   position: fixed;
   top: 110px;
   left: 0;
