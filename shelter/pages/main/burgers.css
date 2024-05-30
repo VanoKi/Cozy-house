@@ -1,0 +1,171 @@
+.burger_ico{
+  display: none;
+  width: 30px;
+  height: 22px;
+  /* background: url(../../assets/icons/Burger.svg); */
+  cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+
+.burger_wrap{
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
+  /* display: none; */
+  position: fixed;
+  top: 110px;
+  left: 0;
+  width: 100vw;
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  /* transform: translateX(100%) 0.3s ease-out; */
+  /* transition: transform 0.3s ease-out */
+}
+
+.hide{
+  /* display: none; */
+  opacity: 0;
+  visibility: hidden;
+}
+
+.burger_span{
+  background-color: #F1CDB3;
+}
+
+.main_burger{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #292929;
+}
+
+@media screen and (max-width: 767px){
+  .burger_ico{
+    margin-right: 11px;
+    margin-top: 19px;
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url(../../assets/icons/Burger.svg);
+  }
+
+  .nav_wrap{
+    display: none;
+  }
+  
+  .main_menu{
+    padding-top: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 89px;
+  }
+  .main_title{
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: var(--color-primary);
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+  }
+  .main_title_text{
+    margin: 0 auto;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+  .nav_text{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    color: #CDCDCD;
+  }
+  
+  .active_link{
+    cursor: default;
+    display: inline-block;
+    border-bottom: 3px solid #F1CDB3;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    color: #FAFAFA;
+  }
+  
+  .nav_text:hover{
+    color: #FAFAFA;
+  }
+  .nav_text:active{
+    cursor: default;
+    display: inline-block;
+    border-bottom: 3px solid #F1CDB3;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+    transition: .5s;
+  }
+  
+  /* .burger_ico{
+    display: none;
+    width: 30px;
+    height: 22px;
+    background: url(../../assets/icons/Burger.svg);
+    cursor: pointer;
+  } */
+
+  .add_margin{
+    margin-top: 42px;
+  }
+  
+  .burger_wrap{
+    /* display: none; */
+    position: fixed;
+    top: 110px;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  
+  .burger_span{
+    background-color: #F1CDB3;
+  }
+  
+  .main_burger{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #292929;
+    padding-left: 0px;
+  }
+
+}
